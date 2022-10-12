@@ -15,7 +15,13 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Make your guess</h1>
+
+    <form name="magic8BallForm"onclick="askAnything()">
+      <label for="question"></label>
+      <input type="text" id="question" placeholder="Your Question...">
+      <button>Enter</button>
+    </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -24,7 +30,7 @@
 
     <!-- Added magic8ball.js script link -->
     <script src="js/magic8ball.js"></script>
-    
+
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
