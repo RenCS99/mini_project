@@ -12,15 +12,15 @@
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Title of the page -->
-    <title>Hello, world!</title>
+    <title>The Magic 8 Ball</title>
   </head>
   <body>
-    <h1>Make your guess</h1>
-
-    <form name="magic8BallForm"onclick="askAnything()">
-      <label for="question"></label>
-      <input type="text" id="question" placeholder="Your Question...">
-      <button>Enter</button>
+    <h1>Ask Your Questions Away!</h1>
+    <div id="response"></div>
+    <form name="magic8BallForm" onclick="askAnything()">
+      <label for="question">Get a Response!</label><br>
+      <input type="text" id="question" placeholder="Your Question..."><br>
+      <input type="submit" value="Enter">
     </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
